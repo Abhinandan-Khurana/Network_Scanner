@@ -19,6 +19,8 @@ $$ | \$$ |\$$$$$$$\  \$$$$  |\$$$$$\$$$$  |\$$$$$$  |$$ |      $$ | \$$\       \
 This is a python based command line Network Scanner utility, which input as an argument for the exact IP address or the relative IP Address range you wish to do the Network Scan for and returns all the available IP addresses with their MAC addresses on your current Network.
 
 
+<hr><br>
+
 
 ### NOTE: It will work both with python2 and python3. You just need to install scapy module for both.
 ### Installation for scapy -->
@@ -31,9 +33,8 @@ This is a python based command line Network Scanner utility, which input as an a
 ## How to use?
 
 <code>
-USE --help for help menu (sudo python3 network_scanner.py --help)
+USE --help for help menu (sudo python3 network_scanner.py --help)</code>
 
-sudo python3 network_scanner.py -t 192.168.137.2
-OR
-sudo python3 network_scanner.py --target 192.168.137.1/24
-</cdoe>
+<code>sudo python3 network_scanner.py -t 192.168.137.2 </cdoe>
+### OR
+code>sudo python3 network_scanner.py --target 192.168.137.1/24</cdoe>
