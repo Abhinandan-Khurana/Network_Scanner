@@ -24,7 +24,7 @@ $$ | \$$ |\$$$$$$$\  \$$$$  |\$$$$$\$$$$  |\$$$$$$  |$$ |      $$ | \$$\       \
 <hr><br>
 
 
-### NOTE: It will work both with python2 and python3. You just need to install scapy module for both.
+### NOTE: It will work with both, python2 and python3. You just need to install scapy module for both.
 ### Installation for scapy -->
 <code>pip install scapy</code>
 
