@@ -39,5 +39,5 @@ USE --help for help menu (sudo python3 network_scanner.py --help)</code>
 
 ### Example -->
 
-<code>sudo python3 network_scanner.py -t 192.168.137.2 </code>
+<code>sudo python3 network_scanner.py -t 192.168.137.2 </code><br>
 <code>sudo python3 network_scanner.py --target 192.168.137.1/24</code>
