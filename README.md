@@ -35,6 +35,9 @@ This is a python based command line Network Scanner utility, which input as an a
 <code>
 USE --help for help menu (sudo python3 network_scanner.py --help)</code>
 
-<code>sudo python3 network_scanner.py -t 192.168.137.2 </cdoe>
-### OR
-code>sudo python3 network_scanner.py --target 192.168.137.1/24</cdoe>
+
+
+### Example -->
+
+<code>sudo python3 network_scanner.py -t 192.168.137.2 
+sudo python3 network_scanner.py --target 192.168.137.1/24</code>
