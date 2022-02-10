@@ -37,7 +37,7 @@ def scan(ip):
 	arp_request = scapy.ARP(pdst=ip)
 	# Ethernet frame generation for ARP broadcast to src MAC address
 	broadcast = scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
-	# Combined the two frames for easyily sending the packet
+	# Combined the two frames for easily sending the packet
 	arp_request_broadcast = broadcast/arp_request
 	# Send the packet and get the response (remember the response is in the form of a list, and those are 2 specifically - answered and unanswered ), we need to get the first element of the list so we used answered[0]
 	answered_list = scapy.srp(arp_request_broadcast, timeout=1, verbose=False)[0]
